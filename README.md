@@ -1,5 +1,5 @@
 # Learn how to improve your linear models
-This repository contains all examples and R code of my Medium article on ["How to Improve Linear Models"](http://medium.com).
+This repository contains all examples and R code of my Medium article on ["How you can use linear regression models to predict quadratic, root, and polynomial functions"](https://medium.freecodecamp.org/learn-how-to-improve-your-linear-models-8294bfa8a731).
 
 ## Getting Started
 You can deploy all examples directly after downloading. You do not need to installed further packages. I recommend using RStudio as you can easily browse through the code and graphs side by side.
