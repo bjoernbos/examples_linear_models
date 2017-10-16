@@ -1,3 +1,6 @@
+# Split window to show all 4 examples at once
+par(mfrow = c(2,2))
+
 # Generate variable for experience (in years)
 experience <- seq(from=0, to=20, by=0.1)
 
@@ -80,7 +83,7 @@ lines(experience, fitted(model_3),
 # Generate salaries with polynomial function and add some noise
 set.seed(200)
 noise <- rnorm(length(experience), mean=0, sd=15)
-random_points <- 100+0.1* (experience-10)^3 + noise
+salary <- 100+0.1* (experience-10)^3 + noise
 
 # Plot data points
 plot(experience, salary,
